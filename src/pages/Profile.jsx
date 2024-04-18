@@ -18,7 +18,7 @@
        <main className='container mt-5'>
          <div className='row w-75'>
            <div className='col'>
-             <img src={`/${displayProfile.profilePhoto}`} alt={displayProfile.gender === "Male" ? "Male Profile Picture" : "Female Profile Picture"} style={{width: "150px"}} />
+             <img src={displayProfile.profilePhoto} alt={displayProfile.gender === "Male" ? "Male Profile Picture" : "Female Profile Picture"} style={{width: "150px"}} />
            </div>
            <div className='col'>
              <h2 className='mt-3'>{displayProfile.name}</h2>

@@ -144,7 +144,7 @@ const ListProfile = () => {
           {filteredData ? filteredData.map((profile) => (
             <li className="list-group-item" key={profile.id}>
               <div className="py-3">
-               <img src={`/${profile.profilePhoto}`} alt="Profile picture" style={{ width: "50px" }} />
+               <img src={profile.profilePhoto} alt="Profile picture" style={{ width: "50px" }} />
                <span className="ps-2">
                <Link style={{ textDecoration: "none" }} to={`/profile/${profile.name}`}>{profile.name}</Link>
                </span>

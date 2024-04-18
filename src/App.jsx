@@ -215,14 +215,22 @@ export default function App() {
     <li className="list-group-item justify-content-center" key={profile.id}>
       <img
         style={{ width: "50px" }}
-        src={`/${profile.profilePhoto}`}
+        src={profile.profilePhoto}
         alt={
           profile.gender == "Male"
             ? "Male Profile Picture"
             : "Female Profile Picture"
         }
       />
-      <span className="ps-2"><Link to={`/profile/${profile.name}`} style={{textDecoration: "none"}}> {profile.name}</Link></span>
+      <span className="ps-2">
+        <Link
+          to={`/profile/${profile.name}`}
+          style={{ textDecoration: "none" }}
+        >
+          {" "}
+          {profile.name}
+        </Link>
+      </span>
       <div className="pt-2">
         <img className="rounded w-100" src={profile.postUrl} alt="Post Image" />
       </div>
@@ -235,7 +243,9 @@ export default function App() {
     <>
       <Header />
       <main className="container py-4">
-        <p className="display-5"><strong>Posts</strong></p>
+        <p className="display-5">
+          <strong>Posts</strong>
+        </p>
         <ul className="list-group mb-5">{displayPosts}</ul>
       </main>
       <Footer />
