@@ -10,7 +10,7 @@ const ProfileDetails = () => {
     {
       id: 1,
       name: "John Doe",
-      profilePhoto: "public/malePic.svg",
+      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
       dob: "24-12-2003",
       gender: "Male",
       bio: "Passionate about coding and exploring new technologies.",
