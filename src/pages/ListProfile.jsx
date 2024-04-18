@@ -15,91 +15,91 @@ const ListProfile = () => {
     {
       id: 1,
       name: "John Doe",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       location: "Pune"
     },
     {
       id: 2,
       name: "Jane Smith",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       location: "Delhi"
     },
     {
       id: 3,
       name: "Michael Johnson",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       location: "Mumbai"
     },
     {
       id: 4,
       name: "Emily Brown",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       location: "Pune"
     },
     {
       id: 5,
       name: "Daniel Martinez",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       location: "Delhi"
     },
     {
       id: 6,
       name: "Olivia Johnson",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       location: "Mumbai"
     },
     {
       id: 7,
       name: "William Lee",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       location: "Pune"
     },
     {
       id: 8,
       name: "Sophia Garcia",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       location: "Delhi"
     },
     {
       id: 9,
       name: "Ethan Wilson",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       location: "Mumbai"
     },
     {
       id: 10,
       name: "Ava Taylor",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       location: "Pune"
     },
     {
       id: 11,
       name: "Noah Rodriguez",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       location: "Delhi"
     },
     {
       id: 12,
       name: "Isabella Martinez",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       location: "Mumbai"
     },
     {
       id: 13,
       name: "James Brown",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       location: "Pune"
     },
     {
       id: 14,
       name: "Mia Davis",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       location: "Delhi"
     },
     {
       id: 15,
       name: "Alexander Wilson",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       location: "Mumbai"
     }
   ]);

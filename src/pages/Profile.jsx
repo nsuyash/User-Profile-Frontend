@@ -6,7 +6,7 @@
    const displayProfile = {
      id: 15,
      name: "Suyash Nandurkar",
-     profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+     profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
      dob: "24-12-2003",
      gender: "Male",
      bio: "Fitness enthusiast and personal trainer."

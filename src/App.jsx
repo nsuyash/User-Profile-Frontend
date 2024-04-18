@@ -10,7 +10,7 @@ export default function App() {
     {
       id: 1,
       name: "John Doe",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       dob: "24-12-2003",
       gender: "Male",
       bio: "Passionate about coding and exploring new technologies.",
@@ -22,7 +22,7 @@ export default function App() {
     {
       id: 2,
       name: "Jane Smith",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       dob: "10-05-1998",
       gender: "Female",
       bio: "Travel lover and foodie, always seeking new adventures.",
@@ -35,7 +35,7 @@ export default function App() {
     {
       id: 3,
       name: "Michael Johnson",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       dob: "15-08-1995",
       gender: "Male",
       bio: "Musician and guitar enthusiast.",
@@ -48,7 +48,7 @@ export default function App() {
     {
       id: 4,
       name: "Emily Brown",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       dob: "03-11-2000",
       gender: "Female",
       bio: "Bookworm and aspiring novelist.",
@@ -62,7 +62,7 @@ export default function App() {
     {
       id: 5,
       name: "Daniel Martinez",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       dob: "28-09-1989",
       gender: "Male",
       bio: "Outdoor enthusiast and nature lover.",
@@ -76,7 +76,7 @@ export default function App() {
     {
       id: 6,
       name: "Olivia Johnson",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       dob: "17-03-1996",
       gender: "Female",
       bio: "Fitness fanatic and yoga practitioner.",
@@ -89,7 +89,7 @@ export default function App() {
     {
       id: 7,
       name: "William Lee",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       dob: "09-07-1985",
       gender: "Male",
       bio: "Coffee aficionado and amateur photographer.",
@@ -103,7 +103,7 @@ export default function App() {
     {
       id: 8,
       name: "Sophia Garcia",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       dob: "21-06-2001",
       gender: "Female",
       bio: "Art enthusiast and aspiring painter.",
@@ -116,7 +116,7 @@ export default function App() {
     {
       id: 9,
       name: "Ethan Wilson",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       dob: "14-02-1994",
       gender: "Male",
       bio: "Tech geek and gadget collector.",
@@ -130,7 +130,7 @@ export default function App() {
     {
       id: 10,
       name: "Ava Taylor",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       dob: "02-04-1999",
       gender: "Female",
       bio: "Animal lover and volunteer at the local shelter.",
@@ -143,7 +143,7 @@ export default function App() {
     {
       id: 11,
       name: "Noah Rodriguez",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       dob: "11-10-1992",
       gender: "Male",
       bio: "Food enthusiast and amateur chef.",
@@ -157,7 +157,7 @@ export default function App() {
     {
       id: 12,
       name: "Isabella Martinez",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       dob: "30-07-1997",
       gender: "Female",
       bio: "Fashion lover and aspiring designer.",
@@ -171,7 +171,7 @@ export default function App() {
     {
       id: 13,
       name: "James Brown",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       dob: "19-03-1988",
       gender: "Male",
       bio: "Movie buff and cinephile.",
@@ -184,7 +184,7 @@ export default function App() {
     {
       id: 14,
       name: "Mia Davis",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/femalePic.svg",
+      profilePhoto: "https://i.ibb.co/yd74t9S/female-Pic.png",
       dob: "08-09-2002",
       gender: "Female",
       bio: "Music lover and concert-goer.",
@@ -198,7 +198,7 @@ export default function App() {
     {
       id: 15,
       name: "Alexander Wilson",
-      profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
+      profilePhoto: "https://i.ibb.co/C1PmMpL/malePic.png",
       dob: "25-01-1993",
       gender: "Male",
       bio: "Fitness enthusiast and personal trainer.",
