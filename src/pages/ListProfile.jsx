@@ -5,8 +5,13 @@ import { Link } from "react-router-dom";
 
 const ListProfile = () => {
   const [filteredData, setFilteredData] = useState(null);
+  const [newProfile, setNewProfile] = useState({
+    name: "",
+    profilePhoto: "",
+    location: ""
+  });
 
-  const profileData = [
+  const [profileData, setProfileData] = useState([
     {
       id: 1,
       name: "John Doe",
@@ -96,43 +101,80 @@ const ListProfile = () => {
       name: "Alexander Wilson",
       profilePhoto: "https://775be7be-8d4d-479f-a75e-46713e576d35-00-13ksn1wk04itk.pike.replit.dev/public/malePic.svg",
       location: "Mumbai"
-    },
-  ];
+    }
+  ]);
 
-  const listProfile = profileData.map((profile) => (
-    <li className="list-group-item" key={profile.id}>
-      <div className="py-3">
-        <img src={profile.profilePhoto} alt="Profile picture" style={{ width: "50px" }} />
-        <span className="ps-2">
-        <Link style={{ textDecoration: "none" }} to={`/profile/${profile.name}`}>{profile.name}</Link>
-        </span>
-        <Link className="btn btn-primary float-end" to={`/profile/${profile.name}`}>View Profile</Link>
-        <br />
-        <br />
-        <div className="ms-2">Location: {profile.location}</div>
-      </div>
-    </li>
-  ));
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setNewProfile({
+      ...newProfile,
+      [name]: value
+    });
+  };
 
-  function handleLocation(event) {
+  const addProfile = () => {
+    if (newProfile.name && newProfile.profilePhoto && newProfile.location) {
+      const newProfileWithId = { ...newProfile, id: profileData.length + 1 };
+      setProfileData([...profileData, newProfileWithId]);
+      setNewProfile({
+        name: "",
+        profilePhoto: "",
+        location: ""
+      });
+    } else {
+      alert("Please fill in all the fields.");
+    }
+  };
+
+  const handleLocation = (event) => {
     const selectedLocation = event.target.value;
     if (selectedLocation === "Choose...") {
       setFilteredData(null);
     } else {
       const filteredProfiles = profileData.filter(
-        (profile) => profile.location === selectedLocation,
+        (profile) => profile.location === selectedLocation
       );
       setFilteredData(filteredProfiles);
     }
-  }
+  };
 
   return (
     <>
       <Header />
       <main className="container py-4">
-        <h1 className="py-2">Profiles</h1>
+
+        <div className="mb-5">
+          <h2>Add New Profile</h2>
+          <input
+            type="text"
+            className="form-control mb-3"
+            placeholder="Name"
+            name="name"
+            value={newProfile.name}
+            onChange={handleInputChange}
+          />
+          <input
+            type="text"
+            className="form-control mb-3"
+            placeholder="Profile Photo URL"
+            name="profilePhoto"
+            value={newProfile.profilePhoto}
+            onChange={handleInputChange}
+          />
+          <input
+            type="text"
+            className="form-control mb-3"
+            placeholder="Location"
+            name="location"
+            value={newProfile.location}
+            onChange={handleInputChange}
+          />
+          <button className="btn btn-primary" onClick={addProfile}>Add Profile</button>
+        </div>
+        
+        <h2>Search Location</h2>
         <div className="input-group mb-3">
-          <label className="input-group-text" htmlFor="inputGroupSelect01">Select filter location</label>
+          <label className="input-group-text" htmlFor="inputGroupSelect01">Filter Location</label>
           <select className="form-select" id="inputGroupSelect01" onChange={handleLocation}>
             <option defaultValue>Choose...</option>
             <option value="Pune">Pune</option>
@@ -140,21 +182,23 @@ const ListProfile = () => {
             <option value="Mumbai">Mumbai</option>
           </select>
         </div>
+
+        <h1 className="mb-2 mt-4">Profiles</h1>
         <ul className="list-group my-5">
-          {filteredData ? filteredData.map((profile) => (
+          {(filteredData || profileData).map((profile) => (
             <li className="list-group-item" key={profile.id}>
               <div className="py-3">
-               <img src={profile.profilePhoto} alt="Profile picture" style={{ width: "50px" }} />
-               <span className="ps-2">
-               <Link style={{ textDecoration: "none" }} to={`/profile/${profile.name}`}>{profile.name}</Link>
-               </span>
-               <Link className="btn btn-primary float-end" to={`/profile/${profile.name}`}>View Profile</Link>
-               <br />
-               <br />
-              <div className="ms-2">Location: {profile.location}</div>
-             </div>
+                <img src={profile.profilePhoto} alt="Profile picture" style={{ width: "50px" }} />
+                <span className="ps-2">
+                  <Link style={{ textDecoration: "none" }} to={`/profile/${profile.name}`}>{profile.name}</Link>
+                </span>
+                <Link className="btn btn-primary float-end" to={`/profile/${profile.name}`}>View Profile</Link>
+                <br />
+                <br />
+                <div className="ms-2">Location: {profile.location}</div>
+              </div>
             </li>
-    )): listProfile}
+          ))}
         </ul>
       </main>
       <Footer />
