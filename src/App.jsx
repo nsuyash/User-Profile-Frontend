@@ -15,7 +15,7 @@ export default function App() {
       gender: "Male",
       bio: "Passionate about coding and exploring new technologies.",
       description: "Tech enthusiast and aspiring software developer.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       postDate: "2024-04-17",
     },
@@ -27,7 +27,7 @@ export default function App() {
       gender: "Female",
       bio: "Travel lover and foodie, always seeking new adventures.",
       description: "Freelance writer with a passion for storytelling.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       postDate: "2024-04-16",
@@ -40,7 +40,7 @@ export default function App() {
       gender: "Male",
       bio: "Musician and guitar enthusiast.",
       description: "Songwriter and performer, spreading joy through music.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       postDate: "2024-04-15",
@@ -54,7 +54,7 @@ export default function App() {
       bio: "Bookworm and aspiring novelist.",
       description:
         "Dreaming of creating captivating worlds through literature.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       postDate: "2024-04-14",
@@ -68,7 +68,7 @@ export default function App() {
       bio: "Outdoor enthusiast and nature lover.",
       description:
         "Hiking trails and exploring the wilderness are my passions.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       postDate: "2024-04-13",
@@ -81,7 +81,7 @@ export default function App() {
       gender: "Female",
       bio: "Fitness fanatic and yoga practitioner.",
       description: "Helping others find balance and strength through exercise.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       postDate: "2024-04-12",
@@ -95,7 +95,7 @@ export default function App() {
       bio: "Coffee aficionado and amateur photographer.",
       description:
         "Capturing moments and savoring the aroma, one shot at a time.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       postDate: "2024-04-11",
@@ -108,7 +108,7 @@ export default function App() {
       gender: "Female",
       bio: "Art enthusiast and aspiring painter.",
       description: "Finding beauty in the world and expressing it through art.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       postDate: "2024-04-10",
@@ -122,7 +122,7 @@ export default function App() {
       bio: "Tech geek and gadget collector.",
       description:
         "Always on the lookout for the latest innovations and gadgets.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       postDate: "2024-04-09",
@@ -135,7 +135,7 @@ export default function App() {
       gender: "Female",
       bio: "Animal lover and volunteer at the local shelter.",
       description: "Finding joy in helping animals and making a difference.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       postDate: "2024-04-08",
@@ -149,7 +149,7 @@ export default function App() {
       bio: "Food enthusiast and amateur chef.",
       description:
         "Exploring culinary delights and experimenting in the kitchen.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       postDate: "2024-04-07",
@@ -163,7 +163,7 @@ export default function App() {
       bio: "Fashion lover and aspiring designer.",
       description:
         "Creating unique styles and expressing myself through fashion.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       postDate: "2024-04-06",
@@ -176,7 +176,7 @@ export default function App() {
       gender: "Male",
       bio: "Movie buff and cinephile.",
       description: "Exploring the world of cinema and analyzing its nuances.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       postDate: "2024-04-05",
@@ -190,7 +190,7 @@ export default function App() {
       bio: "Music lover and concert-goer.",
       description:
         "Immersing myself in melodies and experiencing the magic of live music.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       postDate: "2024-04-04",
@@ -204,7 +204,7 @@ export default function App() {
       bio: "Fitness enthusiast and personal trainer.",
       description:
         "Helping others achieve their fitness goals and lead healthier lives.",
-      postUrl: "https://via.placeholder.com/200x100",
+      postUrl: "https://via.placeholder.com/600x300",
       postContent:
         "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       postDate: "2024-04-03",
